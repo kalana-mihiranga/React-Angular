@@ -1,0 +1,15 @@
+.ng-dirty.ng-invalid.ng-touched {
+  @apply ring-red-500;
+  @apply border-red-500;
+}
+
+.ng-valid {
+  @apply ring-green-500;
+  @apply border-green-500;
+}
+
+.form-control {
+  @apply border p-1 text-center border-slate-400
+    focus:ring focus:outline-none
+    my-2 rounded;
+}

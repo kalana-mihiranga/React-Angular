@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import 'ngx-toastr/toastr';
+@import 'animate.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.toast-container .ngx-toastr{
+  box-shadow: 0 0 12px #4b4b4b;
+}
+
+.toast-container .ngx-toastr:hover{
+  box-shadow: 0 0 12px #4b4b4b;
+}
+
+.toast-error {
+  background-color: #720021;
+}

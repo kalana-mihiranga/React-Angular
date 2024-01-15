@@ -1,0 +1,21 @@
+div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    label {
+        width: 90px;
+    }
+}
+
+input[type="text"]{
+    padding: 5px;
+    flex-grow: 1;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+}

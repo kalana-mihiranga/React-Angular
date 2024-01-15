@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "to-do-app-angular-dd797": {
+      "hosting": {
+        "to-do-app": [
+          "to-do-app-angular-dd797"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "to-do-app-angular-dd797"
+  }
+}
